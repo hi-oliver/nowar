@@ -843,7 +843,6 @@ text-align: center;
 .modal-dialog {
     position: relative;
     width: auto;
-    margin: 10px;
 }
 @media (min-width: 576px) {
   .modal-dialog {
@@ -852,6 +851,7 @@ text-align: center;
   }
 }
 .modal-content {
+    width: 100%;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -868,7 +868,7 @@ text-align: center;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.2);
-    border-radius: 15px;
+    border-radius: px;
     outline: 0;
 }
 .modal-content2 {
