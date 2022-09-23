@@ -15,6 +15,20 @@ BODY {
   font-size: 50px;
   color: #fff;
 }
+.CELLAR-END-TEXT{
+color: #7a7a7a;
+font-family: 'Playfair Display', serif;
+font-size: 15px;
+text-align: center;
+text-decoration: none;
+}
+.CELLAR-END-TEXT-RED{
+color: #a80000;
+font-family: 'Playfair Display', serif;
+font-size: 15px;
+text-align: center;
+text-decoration: none;
+}
 .WHITE_Block_STitile {
   font-family: 'Playfair Display', serif;
   font-size: 25px;
@@ -200,6 +214,25 @@ BODY {
   text-align: center;
   font-weight: 600;
 }
+.Mortal {
+  position: static;
+  text-align: center;
+  margin: auto;
+}
+.MortalTitles {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: left;
+  color: #a5a5a5;
+}
+.NubersOfDeads {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: left;
+  color: #a80000;
+}
 #lic1 {
   font-family: 'Raleway', sans-serif;
   font-size: 45px;
@@ -332,13 +365,7 @@ BODY {
   padding-bottom: 10px;
   background-color: #1a1a1a;
 }
-.CELLAR-END-TEXT{
-  color: #fff;
-font-family: 'Raleway', sans-serif;
-font-size: 13px;
-text-align: center;
-text-decoration: none;
-}
+
 .CELLAR-NAV {
 font-family: 'Raleway', sans-serif;
 font-size: 13px;
@@ -1056,6 +1083,9 @@ text-align: center;
 }
 .modal-body {
   color: #fff;
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
   position: relative;
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 auto;
